@@ -5,9 +5,8 @@
   ],
   "name": "component-library-issue",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "build:component": "lerna run build --scope component-lib --stream",
+    "build:component": "lerna run build --scope @malavshah9/component-lib --stream",
     "dev:app": "lerna run dev --scope web-app-1 --stream",
     "dev": "yarn build:component && yarn dev:app"
   },
