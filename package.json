@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "name": "component-library-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:component": "lerna run build --scope component-lib --stream",
+    "dev:app": "lerna run dev --scope web-app-1 --stream",
+    "dev": "yarn build:component && yarn dev:app"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
