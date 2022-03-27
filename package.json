@@ -12,6 +12,7 @@
     "dev": "yarn build:component && yarn dev:app"
   },
   "license": "MIT",
+  "repository": "git@github.com:malavshah9/component-react.git",
   "devDependencies": {
     "lerna": "^4.0.0"
   }
