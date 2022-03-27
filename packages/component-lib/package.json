@@ -1,6 +1,6 @@
 {
   "name": "@malavshah9/component-lib",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "lib/index.js",
   "module": "lib/index.js",
   "js:next": "lib/component-lib.es.js",
@@ -16,16 +16,16 @@
   "repository": "git@github.com:malavshah9/component-react.git",
   "exports": {
     ".": {
-      "import": "./lib/component-kit.es.js",
-      "require": "./lib/component-kit.umd.js"
+      "import": "./lib/component-lib.es.js",
+      "require": "./lib/component-lib.umd.js"
     },
     "./lib": {
-      "import": "./lib/component-kit.es.js",
-      "require": "./lib/component-kit.umd.js"
+      "import": "./lib/component-lib.es.js",
+      "require": "./lib/component-lib.umd.js"
     },
     "./lib/index": {
-      "import": "./lib/component-kit.es.js",
-      "require": "./lib/component-kit.umd.js"
+      "import": "./lib/component-lib.es.js",
+      "require": "./lib/component-lib.umd.js"
     }
   },
   "files": [
